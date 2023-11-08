@@ -1,0 +1,28 @@
+.menungang {
+    display:flex;
+    list-style: none;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+.fa-angle-right{
+    margin-left: 10px;
+    margin-top: 1.5px;
+    margin-right: 10px;
+}
+.than{
+    display: flex;
+    margin-left: 420px;
+}
+.than .trai{
+    padding: 20px;
+}
+.than .phai ._1{
+    
+}
+.than .phai .gia{
+    display: flex;
+}
+.than .phai{}
+.than .phai{}

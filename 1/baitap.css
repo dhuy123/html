@@ -1,0 +1,32 @@
+.than{
+    text-align: auto;
+    
+}
+.tren {
+    
+    display: inline-flex;
+    width: 100%;
+    height: 300px;
+    background-color: rgba(0, 60, 255, 0.794);
+   font-size: 40px;
+    
+}
+.tren .trai {
+    margin-left: 100px;
+
+}
+.tren .trai ._1{
+margin-top: 1px;
+}
+.tren .giua  {
+    padding-left: 100px;
+}
+.tren .phai{
+    margin-top: 150px;
+    padding-left: 30px;
+    font-size: 200px;
+    
+
+}
+
+

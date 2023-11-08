@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <table border="1" cellspacing="0" cellpadding="">
+        <tr>
+            <th> Họ tên</th>
+            <th> Ngày sinh</th>
+            <th> Giới tính </th>
+        </tr>
+        <tr>
+            <th>Nguyễn Văn Huy</th>
+            <th>30/01/2003</th>
+            <th>Nam</th>
+
+        </tr>
+
+
+    </table>
+
+    <table border="1">
+        <h3 style="margin-left:100px;padding: 3px;"> THÔNG TIN SINH VIÊN </h3>
+        <tr>
+            <th><i>Họ và tên </i></th>
+            <th>Nguyễn Đức Huy</th>
+        </tr>
+        <tr>
+            <th><i>Ngày sinh </i></th>
+            <th> 30/01/2003</th>
+        </tr>
+        <tr>
+            <th><i>Giới tính </i></th>
+            <th> Nam</th>
+        </tr>
+        <tr>
+            <th><i> Lớp </i></th>
+            <th> DCCTCTF2</th>
+        </tr>
+        <tr>
+            <th>Thông tin địa chỉ</th>
+            <th rowspan="2"> xã dị nậu -huyện thạch thất -thành phố hà nội</th>
+        </tr>
+        <tr>
+            <th> '</th>
+        </tr>
+        <tr>
+            <th>Thông tin liên lạc </th>
+            <th rowspan="2"> Số điện thoại :0374264312 <br>
+                Email : abc@gmail.com</th>
+        </tr>
+        <tr>
+            <th>|</th>
+        </tr>
+        <tr>
+            <th colspan="2"> <u>Ghi chú : sinh viên điền đúng thông tin thật của mình</u></th>
+        </tr>
+    </table>
+    <table border="1" cellspacing="0">
+        <h3 style="margin-left:100px;padding: 3px;"> THÔNG TIN SINH VIÊN </h3>
+        <tr>
+            <th><i>Họ và tên </i></th>
+            <th> <input type="text"> </th>
+        </tr>
+        <tr>
+            <th><i>Ngày sinh </i></th>
+            <th> <textarea name="Nguyễn văn aN" id="123" cols="30" rows="1"></textarea></th>
+        </tr>
+        <tr>
+            <th><i>Giới tính </i></th>
+            <th> Nam</th>
+        </tr>
+        <tr>
+            <th><i> Lớp </i></th>
+            <th> DCCTCTF2</th>
+        </tr>
+        <tr>
+            <th>Thông tin địa chỉ</th>
+            <th rowspan="2"> xã dị nậu -huyện thạch thất -thành phố hà nội</th>
+        </tr>
+        <tr>
+            <th> '</th>
+        </tr>
+        <tr>
+            <th>Thông tin liên lạc </th>
+            <th rowspan="2">
+                <input id="tel"><br>
+                <form> <input type="email"></form>
+            </th>
+        </tr>
+        <tr>
+            <th>|</th>
+        </tr>
+        <tr>
+            <th colspan="2"> <u>Ghi chú : sinh viên điền đúng thông tin thật của mình</u></th>
+        </tr>
+        <tr>
+            <th>Radio</th>
+            <th> <input type="radio" name="huy" value="male">Male<br< /th>
+        </tr>
+        <tr>
+            <th>Lựa chọn</th>
+            <th>Game : <input type=“checkbox" name=“hobby" value=“game"><br>
+                Music : <input type=“checkbox" name=“hobby" value=“music"><br>
+                Sport : <input type=“checkbox" name=“hobby" value=“sport"><br>
+            </th>
+        </tr>
+        <tr>
+            <th>danh sách</th>
+            <th> <input list="browsers">
+                <datalist id="browsers">
+                    <option value="Internet Explorer">
+                    <option value="Firefox">
+                    <option value="Chrome">
+                        <a href="">
+                    <option value="Opera">
+            </th>
+            </datalist>
+        </tr>
+        <tr>
+            <th>selection list</th>
+            <th>
+                <select name="browsers">
+                    <option value="Internet Explorer">Internet Explorer</option>
+                    <option value="Firefox">Firefox</option>
+                    <option value="Chrome">Chrome</option>
+                    <option value="Opera">Opera</option>
+                    <option value="Safari">Safari</option>
+                    <option value="Cốc cốc">Cốc cốc</option>
+                </select>
+
+            </th>
+        </tr>
+        <tr>
+            <th>selection list(chọn 1 or nhiều nd)</th>
+            <th><select name="browsers" multiple>
+                    <option value="Internet Explorer">Internet Explorer</option>
+                    <option value="Firefox">Firefox</option>
+                    <option value="Chrome">Chrome</option>
+                    <option value="Opera">Opera</option>
+                    <option value="Safari">Safari</option>
+                    <option value="Cốc cốc">Cốc cốc</option>
+                </select>
+            </th>
+        </tr>
+        <tr>
+            <th> keygen (tạo mã bảo mật)</th>
+            <th>
+                <form action="0374254312" method="get"> Username: <input type="text" name="usr_name"> Encryption:
+                    <keygen name="security">
+                    <input type="submit">
+                </form>
+            </th>
+        </tr>
+        <tr>
+            <th>
+                range(tạo thanh kéo)
+            </th>
+            <th>0 <input type="range" id="a" value="50"> 100
+            </th>
+        </tr>
+        <tr><th>number(chọn giá trị trong khoảng) </th>
+            <th><form action="demo_form.php">
+                Quantity (between 1 and 5):
+                <input type="number" name="quantity" min="1" max="5" step = “0.1”>
+                <input type="submit" value="Send">
+                </form>
+                </th>
+        </tr>
+        <tr>
+            <th></th>
+        </tr>
+    </table>
+
+
+</body>
+
+</html>
